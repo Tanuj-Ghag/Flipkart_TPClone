@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images\icon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/897232bf16.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins|Jost|Montserrat|Josefin Sans"/>
+    <title>Flipkart</title>
+</head>
+<body>
+    <div class="opac">
+    <nav>
+        <div class="header-left">
+            <a href="#">Flipkart</a>
+            <div class="header-left-p">
+                <p><a href="#">Explore</a><span><b><i>plus<i class="fa-solid fa-plus"></i></i></b></span></p>
+            </div>
+        </div>
+        <div class="header-center">
+            <input type="text" class="header-center-input" placeholder="Search for items"><i class="fa-solid fa-magnifying-glass"></i>
+
+        </div>
+        <div class="login">
+            <a href="#" class="login-btn">Login</a>
+            <div class="login-dropdown none">
+                <ul class="login-dropdown-list">
+                    <li class="login-drop-li sign-li flex">
+                        <p class="new-login">New Customer? </p>
+                        <a href="#" class="sign-up"> Sign up</a>
+                    </li>
+                    <li class="login-drop-li"><i class="fa-solid fa-circle-user"></i>My Profile</li>
+                    <li class="login-drop-li"><i class="fa-solid fa-bag-shopping"></i>Orders</li>
+                    <li class="login-drop-li"><i class="fa-solid fa-heart"></i>Wishlist</li>
+                    <li class="login-drop-li"><i class="fa-solid fa-money-bill-1"></i>Rewards</li>
+                    <li class="login-drop-li"><i class="fa-solid fa-gift"></i>Gift cards</li>
+                </ul>
+            </div>
+        </div>
+        <div class="more">
+            <span class="more-lan">More<i class="fa-solid fa-angle-down"></i></span>
+            <div class="more-dropdown none">
+                <div class="pointer more-pointer"></div>
+                <ul class="more-dropdown-list">
+                    <li class="login-drop-li"><i class="more-icon fa fa-bell"></i> Notification Preferences</li>
+                    <li class="login-drop-li"><i class="more-icon fa fa-shopping-basket"></i> Sell on Flipkart</li>
+                    <li class="login-drop-li"><i class="more-icon fa fa-question"></i> 24x7 customer care</li>
+                    <li class="login-drop-li"><i class="more-icon fa fa-line-chart"></i> Advertise</li>
+                    <li class="login-drop-li"><i class="more-icon fa fa-download"></i> Download app</li>
+                </ul>
+            </div>
+        </div>
+        <span class="cart-lan"><i class="fa-solid fa-cart-shopping"></i>Cart</span>
+    </nav>
+    <section>
+        <div class="category-row">
+            <div class="category-col">
+                <img src="images/topoffers.png" alt="">
+                <div class="dropdown">
+                    <h5 class="dropbtn">Top offers</h5>
+                    <div class="dropdown-content">
+                        <div class="header"></div>
+                        <div class="row">
+                            <div class="col">
+                                <h3 class="product-title">Electronics</h3>
+                                <a href="#">Smart watch</a>
+                                <a href="#">Camera</a>
+                                <a href="#">Smart Home Automation</a>
+                            </div>
+                            <div class="col">
+                                <h3 class="product-title">TV and Appliances</h3>
+                                <a href="#">Smart Ultra HD</a>
+                                <a href="#">Soundbars</a>
+                                <a href="#">Set top boxes</a>
+                            </div>
+                            <div class="col">
+                                <h3 class="product-title">Offer zone</h3>
+                                <a href="#">Immersion rod</a>
+                                <a href="#">Dish washer</a>
+                                <a href="#">Running shoes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="category-col">
+                <img src="images/grocery.png" alt="">
+                <div class="dropdown">
+                    <h5 class="dropbtn">Grocery</h5>
+                    <div class="dropdown-content">
+                        <div class="header"></div>
+                        <div class="row">
+                            <div class="col">
+                                <h3 class="product-title">Sweet Tooth</h3>
+                                <a href="#">Chocolates</a>
+                                <a href="#">Cakes</a>
+                                <a href="#">Ice cream</a>
+                            </div>
+                            <div class="col">
+                                <h3 class="product-title">Snacks</h3>
+                                <a href="#">Chips</a>
+                                <a href="#">Nachos</a>
+                                <a href="#">Namkeen</a>
+                            </div>
+                            <div class="col">
+                                <h3 class="product-title">Beverages</h3>
+                                <a href="#">Cold drinks</a>
+                                <a href="#">Milk based</a>
+                                <a href="#">Fruit Juices</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="category-col">
+                <img src="images/mobile.png" alt="">
+                <div class="dropdown">
+                    <h5 class="dropbtn">Mobiles</h5>
+                    <div class="dropdown-content">
+                        <div class="header"></div>
+                        <div class="row">
+                            <div class="col">
+                                <h3 class="product-title">Apple</h3>
+                                <a href="#">Iphone 14</a>
+                                <a href="#">Iphone 14 pro</a>
+                                <a href="#">Iphone 14 ultra pro max</a>
+                            </div>
+                            <div class="col">
+                                <h3 class="product-title">Samsung</h3>
+                                <a href="#">Galaxy S20</a>
+                                <a href="#">Galaxy S10+</a>
+                                <a href="#">Galaxy note 11</a>
+                            </div>
+                            <div class="col">
+                                <h3 class="product-title">Oneplus</h3>
+                                <a href="#">Oneplus 10R</a>
+                                <a href="#">Oneplus 10T</a>
+                                <a href="#">Oneplus Nord2</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="category-col">
+                <img src="images/fashion.png" alt="">
+                <div class="dropdown">
+                    <h5 class="dropbtn">Fashion</h5>
+                    <div class="dropdown-content">
+                        <div class="header"></div>
+                        <div class="row">
+                            <div class="col">
+                                <h3 class="product-title">Men's</h3>
+                                <a href="#">Casual Tshirts</a>
+                                <a href="#">Casual Shirts</a>
+                                <a href="#">Trousers</a>
+                            </div>
+                            <div class="col">
+                                <h3 class="product-title">Women's</h3>
+                                <a href="#">Frogs</a>
+                                <a href="#">Dresses</a>
+                                <a href="#">Sarees</a>
+                            </div>
+                            <div class="col">
+                                <h3 class="product-title">Accesories</h3>
+                                <a href="#">Belts</a>
+                                <a href="#">Watches</a>
+                                <a href="#">Bagpacks</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="category-col">
+                <img src="images/elec.png" alt="">
+                <div class="dropdown">
+                    <h5 class="dropbtn">Electronics</h5>
+                    <div class="dropdown-content">
+                        <div class="header"></div>
+                        <div class="row">
+                            <div class="col">
+                                <h3 class="product-title">Cameras</h3>
+                                <a href="#">DSLR</a>
+                                <a href="#">Mirrorless</a>
+                                <a href="#">Camcorder</a>
+                            </div>
+                            <div class="col">
+                                <h3 class="product-title">Computer Peripherals</h3>
+                                <a href="#">Printers</a>
+                                <a href="#">Monitors</a>
+                                <a href="#">Projectors</a>
+                            </div>
+                            <div class="col">
+                                <h3 class="product-title">Laptop & Desktops</h3>
+                                <a href="#">Laptops</a>
+                                <a href="#">Mini PCs</a>
+                                <a href="#">Tower PCs</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="category-col">
+                <img src="images/home.jpg" alt="">
+                <div class="dropdown">
+                    <h5 class="dropbtn">Home</h5>
+                    <div class="dropdown-content">
+                        <div class="header"></div>
+                        <div class="row">
+                            <div class="col">
+                                <h3 class="product-title">Living room furniture</h3>
+                                <a href="#">Sofas Sets</a>
+                                <a href="#">TV Units</a>
+                                <a href="#">Coffee Tables</a>
+                            </div>
+                            <div class="col">
+                                <h3 class="product-title">Kitchen & Dining</h3>
+                                <a href="#">Cookware</a>
+                                <a href="#">Lunchboxes</a>
+                                <a href="#">Dining tables</a>
+                            </div>
+                            <div class="col">
+                                <h3 class="product-title">Bedroom Furniture</h3>
+                                <a href="#">Mattresses</a>
+                                <a href="#">Beds</a>
+                                <a href="#">Side tables</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="category-col">
+                <img src="images/appli.png" alt="">
+                <div class="dropdown">
+                    <h5 class="dropbtn">Appliances</h5>
+                    <div class="dropdown-content">
+                        <div class="header"></div>
+                        <div class="row">
+                            <div class="col">
+                                <h3 class="product-title">Refrigerator</h3>
+                                <a href="#">Triple Door</a>
+                                <a href="#">Normal</a>
+                                <a href="#">Mini</a>
+                            </div>
+                            <div class="col">
+                                <h3 class="product-title">Home Appliances</h3>
+                                <a href="#">Sewing Machine</a>
+                                <a href="#">Irons</a>
+                                <a href="#">Vaccum Cleaners</a>
+                            </div>
+                            <div class="col">
+                                <h3 class="product-title">Telivision</h3>
+                                <a href="#">OLED</a>
+                                <a href="#">QLED</a>
+                                <a href="#">Ultra HD</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="category-col">
+                <img src="images/baby.png" alt="">
+                <div class="dropdown">
+                    <h5 class="dropbtn">Beauty & Toys</h5>
+                    <div class="dropdown-content">
+                        <div class="header"></div>
+                        <div class="row">
+                            <div class="col">
+                                <h3 class="product-title">Beauty & Personal Care</h3>
+                                <a href="#">Face MakeUp</a>
+                                <a href="#">Personal Hygiene</a>
+                                <a href="#">Hair Care</a>
+                            </div>
+                            <div class="col">
+                                <h3 class="product-title">Men's Grooming</h3>
+                                <a href="#">Face washes</a>
+                                <a href="#">Beard Oils</a>
+                                <a href="#">Shaving essentials</a>
+                            </div>
+                            <div class="col">
+                                <h3 class="product-title">Toys</h3>
+                                <a href="#">Soft Toys</a>
+                                <a href="#">Puzzles</a>
+                                <a href="#">Board games</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="banner">
+            <div class="slider">
+                <img src="images/banner0.jpg" alt="" width="1163px" height="250px">
+                <img src="images/banner1.jpg" alt="" width="1163px" height="250px">
+                <img src="images/banner2.jpg" alt="" width="1163px" height="250px">
+                <img src="images/banner0.jpg" alt="" width="1163px" height="250px">
+                <img src="images/banner1.jpg" alt="" width="1163px" height="250px">
+                <img src="images/banner2.jpg" alt="" width="1163px" height="250px">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="card">
+            <div class="common-heading">
+                <div class="common-heading-left">
+                    <h1>Deals of the day</h1><i class="fa-solid fa-timer"></i>
+                </div>
+                <div class="common-heading-right">
+                    <button>View All</button>
+                </div>
+            </div>
+            <div class="common-row col-deals">
+                <div class="common-col">
+                    <img src="images/foot.jpeg" alt="" class="product-img">
+                    <h3 class="product-title">Sports Essential</h3>
+                    <h4>Upto 80% off</h4>
+                    <h6 class="price">Cycle, football and more</h6>
+                    <i class="fa-solid fa-bag-shopping" id="add-cart"></i>
+                </div>
+                <div class="common-col">
+                    <img src="images/monitor.webp" alt="" class="product-img">
+                    <h3 class="product-title">Monitors</h3>
+                    <h4>From ₹8279</h4>
+                    <h6 class="price">Dell</h6>
+                    <i class="fa-solid fa-bag-shopping" id="add-cart"></i>
+                </div>
+                <div class="common-col">
+                    <img src="images/books.webp" alt="" class="product-img">
+                    <h3 class="product-title">Books</h3>
+                    <h4>Min 30% off</h4>
+                    <h6 class="price">Shop Now!</h6>
+                    <i class="fa-solid fa-bag-shopping" id="add-cart"></i>
+                </div>
+                <div class="common-col">
+                    <img src="images/camera.webp" alt="" class="product-img">
+                    <h3 class="product-title">Top Cameras</h3>
+                    <h4>Shop Now!</h4>
+                    <h6 class="price">Canon,sony,FujiFilms</h6>
+                    <i class="fa-solid fa-bag-shopping" id="add-cart"></i>
+                </div>
+                <div class="common-col">
+                    <img src="images/plants.webp" alt="" class="product-img">
+                    <h3 class="product-title">Artificial Plants</h3>
+                    <h4>Upto 80% off</h4>
+                    <h6 class="price">Big discounts</h6>
+                    <i class="fa-solid fa-bag-shopping" id="add-cart"></i>
+                </div>
+                <div class="common-col">
+                    <img src="images/grab.webp" alt="" class="product-img">
+                    <h3 class="product-title">Grab Now!</h3>
+                    <h4>From ₹49</h4>
+                    <h6 class="price">Chargers,cables and more</h6>
+                    <i class="fa-solid fa-bag-shopping" id="add-cart"></i>
+                </div>
+                <div class="common-col">
+                    <img src="images/cameracc.webp" alt="" class="product-img">
+                    <h3 class="product-title">Top deals</h3>
+                    <h4>Shop Now!</h4>
+                    <h6 class="price">Tripods,Gimbles,bags</h6>
+                    <i class="fa-solid fa-bag-shopping" id="add-cart"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="card">
+            <div class="common-heading">
+                <div class="common-heading-left">
+                    <h1>Shop Monthly Essentials</h1><i class="fa-solid fa-timer"></i>
+                </div>
+                <div class="common-heading-right">
+                    <button>View All</button>
+                </div>
+            </div>
+            <div class="common-row col-deals">
+                <div class="common-col">
+                    <img src="images/candles.webp" alt="" class="product-img">
+                    <h3 class="product-title">Candles</h3>
+                    <h4>Min 40% Off</h4>
+                    <h6 class="price">Buy Now</h6>
+                    <i class="fa-solid fa-bag-shopping" id="add-cart"></i>
+                </div>
+                <div class="common-col">
+                    <img src="images/foods.webp" alt="" class="product-img">
+                    <h3 class="product-title">Food Products</h3>
+                    <h4>Min 70% Off</h4>
+                    <h6 class="price">Shop Now!</h6>
+                    <i class="fa-solid fa-bag-shopping" id="add-cart"></i>
+                </div>
+                <div class="common-col">
+                    <img src="images/fragnances.webp" alt="" class="product-img">
+                    <h3 class="product-title">Fragnances</h3>
+                    <h4>From ₹99</h4>
+                    <h6 class="price">Axe, Denver and more</h6>
+                    <i class="fa-solid fa-bag-shopping" id="add-cart"></i>
+                </div>
+                <div class="common-col">
+                    <img src="images/bodyface.webp" alt="" class="product-img">
+                    <h3 class="product-title">Body and Face Care</h3>
+                    <h4>Upto 60% off</h4>
+                    <h6 class="price">Big discounts</h6>
+                    <i class="fa-solid fa-bag-shopping" id="add-cart"></i>
+                </div>
+                <div class="common-col">
+                    <img src="images/utility.webp" alt="" class="product-img">
+                    <h3 class="product-title">Utility Lightning</h3>
+                    <h4>Min 60% Off</h4>
+                    <h6 class="price">Torches, Lanterns and more</h6>
+                    <i class="fa-solid fa-bag-shopping" id="add-cart"></i>
+                </div>
+                <div class="common-col">
+                    <img src="images/bwipes.webp" alt="" class="product-img">
+                    <h3 class="product-title">Baby Wipes</h3>
+                    <h4>Min 50% Off</h4>
+                    <h6 class="price">Shop Now!</h6>
+                    <i class="fa-solid fa-bag-shopping" id="add-cart"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="card">
+            <div class="common-heading">
+                <div class="common-heading-left">
+                    <h1>Grooming, Books, Auto & More</h1><i class="fa-solid fa-timer"></i>
+                </div>
+                <div class="common-heading-right">
+                    <button>View All</button>
+                </div>
+            </div>
+            <div class="common-row col-deals">
+                <div class="common-col">
+                    <img src="images/toys.webp" alt="" class="product-img">
+                    <h3 class="product-title">Soft Toys</h3>
+                    <h4>Upto 70% off</h4>
+                    <h6 class="price">Stuffed Toys & more</h6>
+                    <i class="fa-solid fa-bag-shopping" id="add-cart"></i>
+                </div>
+                <div class="common-col">
+                    <img src="images/tread.webp" alt="" class="product-img">
+                    <h3 class="product-title">Treadmill and bikes</h3>
+                    <h4>Upto 70% off</h4>
+                    <h6 class="price">Fitkit, Powermax & more</h6>
+                    <i class="fa-solid fa-bag-shopping" id="add-cart"></i>
+                </div>
+                <div class="common-col">
+                    <img src="images/childb.webp" alt="" class="product-img">
+                    <h3 class="product-title">Children Books</h3>
+                    <h4>Min 50% off</h4>
+                    <h6 class="price">Action & Adventure books</h6>
+                    <i class="fa-solid fa-bag-shopping" id="add-cart"></i>
+                </div>
+                <div class="common-col">
+                    <img src="images/beby.webp" alt="" class="product-img">
+                    <h3 class="product-title">Baby Bathing Accesories</h3>
+                    <h4>From ₹349</h4>
+                    <h6 class="price">Baby Bath tubs & more</h6>
+                    <i class="fa-solid fa-bag-shopping" id="add-cart"></i>
+                </div>
+                <div class="common-col">
+                    <img src="images/gyme.webp" alt="" class="product-img">
+                    <h3 class="product-title">Gym Essentials</h3>
+                    <h4>From ₹139</h4>
+                    <h6 class="price">Shop Now</h6>
+                    <i class="fa-solid fa-bag-shopping" id="add-cart"></i>
+                </div>
+                <div class="common-col">
+                    <img src="images/hairc.webp" alt="" class="product-img">
+                    <h3 class="product-title">Hair Care</h3>
+                    <h4>Upto 40% Off</h4>
+                    <h6 class="price">Dove, Head & Shoulders</h6>
+                    <i class="fa-solid fa-bag-shopping" id="add-cart"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="card">
+            <div class="common-heading">
+                <div class="common-heading-left">
+                    <h1>Fashion Top Deals</h1><i class="fa-solid fa-timer"></i>
+                </div>
+                <div class="common-heading-right">
+                    <button>View All</button>
+                </div>
+            </div>
+            <div class="common-row col-deals">
+                <div class="common-col">
+                    <img src="images/bras.webp" alt="" class="product-img">
+                    <h3 class="product-title">Bra, Tops, Dresses</h3>
+                    <h4>From ₹99</h4>
+                    <h6 class="price">Sassafras, Clovia, Only</h6>
+                    <i class="fa-solid fa-bag-shopping" id="add-cart"></i>
+                </div>
+                <div class="common-col">
+                    <img src="images/sneak.webp" alt="" class="product-img">
+                    <h3 class="product-title">Levi's, Flying machine & more</h3>
+                    <h4>Min 50% off</h4>
+                    <h6 class="price">Men's Sneakers</h6>
+                    <i class="fa-solid fa-bag-shopping" id="add-cart"></i>
+                </div>
+                <div class="common-col">
+                    <img src="images/jewl.webp" alt="" class="product-img">
+                    <h3 class="product-title">Fashion Jewellery</h3>
+                    <h4>From ₹99</h4>
+                    <h6 class="price">Best Deals!</h6>
+                    <i class="fa-solid fa-bag-shopping" id="add-cart"></i>
+                </div>
+                <div class="common-col">
+                    <img src="images/sty.webp" alt="" class="product-img">
+                    <h3 class="product-title">Best Selling Styles</h3>
+                    <h4>Upto 40% Off</h4>
+                    <h6 class="price">Woodland, U.S Polo</h6>
+                    <i class="fa-solid fa-bag-shopping" id="add-cart"></i>
+                </div>
+                <div class="common-col">
+                    <img src="images/lavie.webp" alt="" class="product-img">
+                    <h3 class="product-title">Lavie, Caprese</h3>
+                    <h4>40%-70% Off</h4>
+                    <h6 class="price">Grab the Deal Now!</h6>
+                    <i class="fa-solid fa-bag-shopping" id="add-cart"></i>
+                </div>
+                <div class="common-col">
+                    <img src="images/organze.webp" alt="" class="product-img">
+                    <h3 class="product-title">Organza Sarees</h3>
+                    <h4>Flat 70% Off</h4>
+                    <h6 class="price">Shop Now!</h6>
+                    <i class="fa-solid fa-bag-shopping" id="add-cart"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="card">
+            <div class="common-heading">
+                <div class="common-heading-left">
+                    <h1>Furniture Best Sellers</h1><i class="fa-solid fa-timer"></i>
+                </div>
+                <div class="common-heading-right">
+                    <button>View All</button>
+                </div>
+            </div>
+            <div class="common-row col-deals">
+                <div class="common-col">
+                    <img src="images/ward.webp" alt="" class="product-img">
+                    <h3 class="product-title">Wardrobes</h3>
+                    <h4>From ₹4,999</h4>
+                    <h6 class="price">2, 3, 4 door</h6>
+                    <i class="fa-solid fa-bag-shopping" id="add-cart"></i>
+                </div>
+                <div class="common-col">
+                    <img src="images/recl.webp" alt="" class="product-img">
+                    <h3 class="product-title">Recliner</h3>
+                    <h4>From ₹11,999</h4>
+                    <h6 class="price">Cozy Corners</h6>
+                    <i class="fa-solid fa-bag-shopping" id="add-cart"></i>
+                </div>
+                <div class="common-col">
+                    <img src="images/matt.webp" alt="" class="product-img">
+                    <h3 class="product-title">Mattresses</h3>
+                    <h4>Upto 60% Off</h4>
+                    <h6 class="price">Spring, Foam & more</h6>
+                    <i class="fa-solid fa-bag-shopping" id="add-cart"></i>
+                </div>
+                <div class="common-col">
+                    <img src="images/office.webp" alt="" class="product-img">
+                    <h3 class="product-title">Office Study Chairs</h3>
+                    <h4>From ₹1,890</h4>
+                    <h6 class="price">Best for WFH</h6>
+                    <i class="fa-solid fa-bag-shopping" id="add-cart"></i>
+                </div>
+                <div class="common-col">
+                    <img src="images/study.webp" alt="" class="product-img">
+                    <h3 class="product-title">Office Study table</h3>
+                    <h4>From ₹1,299</h4>
+                    <h6 class="price">Work like a boss</h6>
+                    <i class="fa-solid fa-bag-shopping" id="add-cart"></i>
+                </div>
+                <div class="common-col">
+                    <img src="images/sofa.webp" alt="" class="product-img">
+                    <h3 class="product-title">Sofa & Sectional</h3>
+                    <h4>From ₹7,999</h4>
+                    <h6 class="price">Fabric & Leatherette</h6>
+                    <i class="fa-solid fa-bag-shopping" id="add-cart"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="card">
+            <div class="common-heading">
+                <div class="common-heading-left">
+                    <h1>Beauty, Food & More</h1><i class="fa-solid fa-timer"></i>
+                </div>
+                <div class="common-heading-right">
+                    <button>View All</button>
+                </div>
+            </div>
+            <div class="common-row col-deals">
+                <div class="common-col">
+                    <img src="images/power.webp" alt="" class="product-img">
+                    <h3 class="product-title">Hand Tool Kit</h3>
+                    <h4>From ₹399</h4>
+                    <h6 class="price">Best Selling</h6>
+                    <i class="fa-solid fa-bag-shopping" id="add-cart"></i>
+                </div>
+                <div class="common-col">
+                    <img src="images/levels.webp" alt="" class="product-img">
+                    <h3 class="product-title">Measuring tape & levels</h3>
+                    <h4>Min 50% Off</h4>
+                    <h6 class="price">Bosch & more</h6>
+                    <i class="fa-solid fa-bag-shopping" id="add-cart"></i>
+                </div>
+                <div class="common-col">
+                    <img src="images/Cofi.webp" alt="" class="product-img">
+                    <h3 class="product-title">Coffee Powder</h3>
+                    <h4>Upto 80% Off</h4>
+                    <h6 class="price">Nescafe, Continental & more</h6>
+                    <i class="fa-solid fa-bag-shopping" id="add-cart"></i>
+                </div>
+                <div class="common-col">
+                    <img src="images/batt.webp" alt="" class="product-img">
+                    <h3 class="product-title">Batteries</h3>
+                    <h4>From ₹79</h4>
+                    <h6 class="price">Best Selling</h6>
+                    <i class="fa-solid fa-bag-shopping" id="add-cart"></i>
+                </div>
+                <div class="common-col">
+                    <img src="images/tools.webp" alt="" class="product-img">
+                    <h3 class="product-title">Gardening tools</h3>
+                    <h4>Min 40% Off</h4>
+                    <h6 class="price">Buy Now!</h6>
+                    <i class="fa-solid fa-bag-shopping" id="add-cart"></i>
+                </div>
+                <div class="common-col">
+                    <img src="images/live.webp" alt="" class="product-img">
+                    <h3 class="product-title">Live Plants</h3>
+                    <h4>From ₹119</h4>
+                    <h6 class="price">Shop Now!</h6>
+                    <i class="fa-solid fa-bag-shopping" id="add-cart"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-row">
+            <div class="footer-col-1">
+                <div class="footer-heading">
+                    <p>ABOUT</p>
+                </div>
+                <div class="footer-list">
+                    <a href="#">Contact Us</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Flipkart stories</a>
+                    <a href="#">Press</a>
+                    <a href="#">Flipkart Wholesales</a>
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <div class="footer-heading">
+                    <p>HELP</p>
+                </div>
+                <div class="footer-list">
+                    <a href="#">Payments</a>
+                    <a href="#">Shipping</a>
+                    <a href="#">Cancellation</a>
+                    <a href="#">FAQ</a>
+                    <a href="#">Press</a>
+                    <a href="#">Report Infringements</a>
+                </div>
+            </div>
+            <div class="footer-col-3">
+                <div class="footer-heading">
+                    <p>POLICY</p>
+                </div>
+                <div class="footer-list">
+                    <a href="#">Return Policy</a>
+                    <a href="#">Term of use</a>
+                    <a href="#">Security</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Sitemap</a>
+                    <a href="#">ERP Compliance</a>
+                </div>
+            </div>
+            <div class="footer-col-4">
+                <div class="footer-heading">
+                    <p>SOCIAL</p>
+                </div>
+                <div class="footer-list">
+                    <a href="#">Facebook</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">Youtube</a>
+                </div>
+            </div>
+            <div class="footer-col-5">
+                <div class="footer-heading">
+                    <p>Mail Us</p>
+                </div>
+                <div class="footer-list">
+                    <p>Vidyalankar Institute of Technology,
+                        Vidyalankar College Marg,
+                        Wadala East, 
+                        Mumbai, 400037, 
+                        Maharashtra, India</p>
+                </div>
+            </div>
+            <div class="footer-col-6">
+                <div class="footer-heading">
+                    <p>Registered Office Address</p>
+                </div>
+                <div class="footer-list">
+                    <p>Senapati Bapat Marg,</p>
+                    <p>Dadar West,</p>
+                    <p>Mumbai, 400028, </p>
+                    <p>Maharashtra, India</p>
+                    <p>Phone: +91 22 4232 4232</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-row2">
+            <div class="footer-row2-col">
+                <p><i class="fa-solid fa-shopping-bag"></i>Sell on Flipkart</p>
+            </div>
+            <div class="footer-row2-col">
+                <p><i class="fa-solid fa-star"></i>Advertise</p>
+            </div>
+            <div class="footer-row2-col">
+                <p><i class="fa-solid fa-gift"></i>Gift Cards</p>
+            </div>
+            <div class="footer-row2-col">
+                <p><i class="fa-solid fa-question-circle"></i>Help center</p>
+            </div>
+            <div class="footer-row2-col">
+                <p>© 2007-2022 Flipkart.com</p>
+            </div>
+            <div class="footer-row2-col">
+                <img src="images/payment.svg" alt="">
+            </div>
+        </div>
+    </footer>
+    </div>
+    <div class="loginwindow">
+        <h1 class="loghead">Login</h1>
+        <p class="usname">Username</p>
+        <input
+          type="text"
+          id="uname"
+          name="username"
+          placeholder="Enter username"
+        />
+        <p><i class="cross fa-solid fa-xmark"></i></p>
+        <p class="psname">Password</p>
+        <input
+          type="password"
+          id="pname"
+          name="username"
+          placeholder="Enter password"
+        />
+        <a class="Signin" href="#">Log in</a>
+    </div>
+    <div class="regwindow">
+        <p><i class="cross2 fa-solid fa-xmark"></i></p>
+        <h1 class="reghead">Register</h1>
+        <p class="rname">Name</p>
+        <input type="text" id="name" name="name" placeholder="Enter your name" />
+  
+        <p class="usrname">Username</p>
+        <input
+          type="text"
+          id="urname"
+          name="username"
+          placeholder="Enter username"
+        />
+  
+        <p class="psrname">Password</p>
+        <input
+          type="password"
+          id="prword"
+          name="password"
+          placeholder="Enter password"
+        />
+        <p class="psname2">Phone number</p>
+        <input
+          type="tel"
+          id="pword2"
+          name="phonenumber"
+          placeholder="+91 xxxxxxxxxx"
+        />
+  
+        <p class="email">Email address</p>
+        <input
+          type="email"
+          id="emaila"
+          name="Emailadd"
+          placeholder="abc@gmail.com"
+        />
+  
+        <p class="dob">Date of Birth</p>
+        <input type="date" id="doba" name="dateofbirth" placeholder="dd-mm-yy" />
+  
+        <p class="gender">Gender:</p>
+  
+        <input type="radio" id="malea" name="gen" value="Male" />
+        <label class="male1" for="malea">Male</label>
+  
+        <input type="radio" id="femalea" name="gen" value="Female" />
+        <label class="female1" for="femalea">Female</label>
+  
+        <input type="radio" id="othera" name="gen" value="Other" />
+        <label class="other1" for="othera">Other</label>
+  
+        <a class="Submit" href="#">Submit</a>
+  
+        <p id="midline"></p>
+    </div>
+    <script>
+        document.getElementsByClassName("login")[0].addEventListener("click", function(){
+            document.getElementsByClassName("opac")[0].style.opacity="0.5";
+            document.getElementsByClassName("loginwindow")[0].style.display="flex";
+        })
+        document.getElementsByClassName("cross")[0].addEventListener("click", function(){
+            document.getElementsByClassName("loginwindow")[0].style.display="none";
+            document.getElementsByClassName("opac")[0].style.opacity="1";
+        })
+        document.getElementsByClassName("Signin")[0].addEventListener("click", function(){
+            document.getElementsByClassName("loginwindow")[0].style.display="none";
+            document.getElementsByClassName("opac")[0].style.opacity="1";
+        })
+        document.getElementsByClassName("sign-up")[0].addEventListener("click", function(){
+            document.getElementsByClassName("opac")[0].style.opacity="0.5";
+            document.getElementsByClassName("regwindow")[0].style.display="flex";
+        })
+        document.getElementsByClassName("cross2")[0].addEventListener("click", function(){
+            document.getElementsByClassName("regwindow")[0].style.display="none";
+            document.getElementsByClassName("opac")[0].style.opacity="1";
+            document.getElementsByClassName("loginwindow")[0].style.display="none";
+        })
+        document.getElementsByClassName("Submit")[0].addEventListener("click", function(){
+            document.getElementsByClassName("regwindow")[0].style.display="none";
+            document.getElementsByClassName("opac")[0].style.opacity="1";
+            document.getElementsByClassName("loginwindow")[0].style.display="none";
+        })
+    </script>
+</body>
+</html>
